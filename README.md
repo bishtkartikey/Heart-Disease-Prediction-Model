@@ -7,8 +7,9 @@ The Heart Disease Prediction Model is a machine learning project that predicts t
 <div style="display: flex; justify-content: space-around;">
     <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Heart%20Image%20GitHub%202.jpg?raw=true" alt="Heart Image 1" width="300"/>
     <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Heart%20Image%20GitHub.jpg?raw=true" alt="Heart Image 2" width="300"/>
-    <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Stethescope%20Image%20GitHub.jpg?raw=true" alt="Stethoscope Image" width="300"/>
+    <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Stethescope%20Image%20GitHub.jpg?raw=true" alt="Stethoscope Image" width="350"/>
 </div>
+
 It is also important that a doctor be present so that they could treat them. To make things worse, the tests usually take a long time before diagnosing whether a person would suffer from heart disease. However, it would be handy and better if we automate this process which ensures that we save a lot of time and effort on the part of the doctor and patient.
 
 ## 2. Machine Learning and Data Science
