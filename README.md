@@ -1,5 +1,5 @@
 ---
-
+![image alt](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Heart%20Disease%20Prediction.jpg?raw=true)
 # Heart Disease Prediction Model
 
 A machine learning project designed to predict the likelihood of heart disease based on medical data. This model uses various machine learning algorithms to analyze key health indicators and determine potential risks, achieving over 80% accuracy in predictions.
