@@ -38,8 +38,12 @@ This step lays the foundation for informed data preprocessing and model selectio
 In this section, we will be visualizing some interests plots and trends in the data which is used by machine learning models to make predictions. We will also evaluate the performance of different machine learning and deep learning models on a given dataset by comparing various metrics. To identify the best version of each model, we will examine their hyperparameters.
 
 To begin, we will review the list of rows and columns (features) in our dataset, which includes age, sex, cp (chest pain), chol, and others. This will provide insight into the types of features present and help us determine if additional features are necessary for analysis.
+
 ![image alt](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Screenshot%202024-11-05%20213338.png)
 
+Next, we will review the dataset for completeness by examining non-null values across each feature. With 303 entries, we confirm the dataset includes information on 1025 patients. Memory usage is minimal, so additional memory optimization steps, such as downcasting, are not needed.
+
+![image alt](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Screenshot%202024-11-05%20214418.png)
 
 ## 6. Machine Learning Models
 A range of machine learning models were implemented to determine which performs best for this problem. The models include:
