@@ -4,11 +4,13 @@
 ## 1. Introduction
 The Heart Disease Prediction Model is a machine learning project that predicts the likelihood of heart disease based on various health indicators. Heart disease is one of the leading causes of death worldwide, making early detection crucial for preventive care. By analyzing patient data, this model aims to help healthcare providers identify high-risk patients, ultimately improving healthcare outcomes.
 
-<div style="display: flex; justify-content: space-around;">
-    <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Heart%20Image%20GitHub%202.jpg?raw=true" alt="Heart Image 1" width="300"/>
-    <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Heart%20Image%20GitHub.jpg?raw=true" alt="Heart Image 2" width="300"/>
-    <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Stethescope%20Image%20GitHub.jpg?raw=true" alt="Stethoscope Image" width="350"/>
+<div style="display: flex; justify-content: space-around; gap: 10px;">
+    <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Heart%20Image%20GitHub%202.jpg?raw=true" alt="Heart Image 1" width="250" height="250" style="object-fit: cover;"/>
+    <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Heart%20Image%20GitHub.jpg?raw=true" alt="Heart Image 2" width="250" height="250" style="object-fit: cover;"/>
+    <img src="https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Stethescope%20Image%20GitHub.jpg?raw=true" alt="Stethoscope Image" width="250" height="250" style="object-fit: cover;"/>
 </div>
+
+
 
 It is also important that a doctor be present so that they could treat them. To make things worse, the tests usually take a long time before diagnosing whether a person would suffer from heart disease. However, it would be handy and better if we automate this process which ensures that we save a lot of time and effort on the part of the doctor and patient.
 
@@ -21,6 +23,8 @@ The dataset used for this project contains various medical features such as age,
 - Encoding categorical variables
 - Scaling numerical features
 
+https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+
 ## 4. Exploratory Data Analysis (EDA)
 EDA helps uncover patterns and insights within the data, facilitating better feature selection and model building. EDA in this project includes:
 - Statistical summary of data
@@ -31,12 +35,11 @@ EDA helps uncover patterns and insights within the data, facilitating better fea
 This step lays the foundation for informed data preprocessing and model selection.
 
 ## 5. Visualizations
-Visualizations play a crucial role in understanding the dataset and identifying relationships between variables. Key visualizations include:
-- **Correlation Heatmap**: Displays relationships between variables, helping us see which factors correlate strongly with heart disease.
-- **Feature Distributions**: Visualizes the distribution of age, cholesterol, and other key health indicators.
-- **Box Plots**: Highlights outliers in features like cholesterol levels and blood pressure.
-  
-These visualizations help to simplify complex data patterns and provide insights that guide model development.
+In this section, we will be visualizing some interests plots and trends in the data which is used by machine learning models to make predictions. We will also evaluate the performance of different machine learning and deep learning models on a given dataset by comparing various metrics. To identify the best version of each model, we will examine their hyperparameters.
+
+To begin, we will review the list of rows and columns (features) in our dataset, which includes age, sex, cp (chest pain), chol, and others. This will provide insight into the types of features present and help us determine if additional features are necessary for analysis.
+![image alt]()
+
 
 ## 6. Machine Learning Models
 A range of machine learning models were implemented to determine which performs best for this problem. The models include:
