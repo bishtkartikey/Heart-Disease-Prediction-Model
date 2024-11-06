@@ -90,6 +90,9 @@ This represent a  box plot that illustrates the distribution of resting blood pr
 
 ![image](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Screenshot%202024-11-05%20224656.png)
 
+This is a representation of a training and validation accuracy of a neural network model across epochs. In this graph, the x-axis represents the number of epochs, which are the complete passes of the training data through the model. The y-axis shows accuracy, indicating how well the model is performing in terms of correct predictions. The `history.history['accuracy']` and `history.history['val_accuracy']` data points come from the model's training history, where `accuracy` represents the model's accuracy on the training set and `val_accuracy` on the validation set. By analyzing the plot, you can assess the model's performance over time, observing trends that indicate if the model is learning effectively, overfitting, or underfitting. Ideally, you would see both lines converge at a high accuracy level, showing that the model generalizes well to unseen data.
+
+![image]()
 
 ##  Machine Learning Models
 A range of machine learning models were implemented to determine which performs best for this problem. The models include:
