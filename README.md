@@ -83,7 +83,7 @@ This dataset provides critical health information that the machine learning mode
 
 ![image alt](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Screenshot%202024-11-05%20213338.png)
 
-Next, we will review the dataset for completeness by examining non-null values across each feature. With 303 entries, we confirm the dataset includes information on 1025 patients. Memory usage is minimal, so additional memory optimization steps, such as downcasting, are not needed.
+Next, we will review the dataset for completeness by examining non-null values across each feature. With 1025 entries, we confirm the dataset includes information on 1025 patients. Memory usage is minimal, so additional memory optimization steps, such as downcasting, are not needed.
 
 ![image alt](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Screenshot%202024-11-05%20214418.png)
 
