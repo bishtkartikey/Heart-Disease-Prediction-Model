@@ -37,9 +37,49 @@ EDA helps uncover patterns and insights within the data, facilitating better fea
 This step lays the foundation for informed data preprocessing and model selection.
 
 ## 5. Visualizations
-In this section, we will be visualizing some interests plots and trends in the data which is used by machine learning models to make predictions. We will also evaluate the performance of different machine learning and deep learning models on a given dataset by comparing various metrics. To identify the best version of each model, we will examine their hyperparameters.
+The dataset used for the Heart Disease Prediction Model contains various health metrics that help predict the likelihood of heart disease. The features in the dataset are as follows:
 
-To begin, we will review the list of rows and columns (features) in our dataset, which includes age, sex, cp (chest pain), chol, and others. This will provide insight into the types of features present and help us determine if additional features are necessary for analysis.
+**1. Age:** The age of the patient. Age is a critical factor in determining heart disease risk, as the likelihood of heart disease generally increases with age.
+
+**2. Sex:** The gender of the patient (male or female). This feature helps capture gender-specific differences in heart disease risk.
+
+**3. Chest Pain Type:** A categorical variable that indicates the type of chest pain experienced by the patient. The possible types include:
+
+Typical angina
+Atypical angina
+Non-anginal pain
+Asymptomatic
+
+**4. Resting Blood Pressure:** The patient's resting blood pressure (in mm Hg). High blood pressure is a key risk factor for heart disease.
+
+**5. Serum Cholesterol:** The cholesterol level in the blood (measured in mg/dl). High cholesterol levels can lead to the formation of plaques in arteries, increasing heart disease risk.
+
+**6. Fasting Blood Sugar:** A binary variable indicating whether the patient’s fasting blood sugar level is above or below 120 mg/dl. High fasting blood sugar is a risk factor for heart disease, especially for patients with diabetes.
+
+**7. Resting Electrocardiographic Results:** The results of an electrocardiogram (ECG), which measures the electrical activity of the heart. This feature could have multiple values:
+
+Normal
+ST-T wave abnormality
+Showing probable or definite left ventricular hypertrophy
+
+**8. Maximum Heart Rate Achieved:** The highest heart rate achieved by the patient during a stress test. A higher maximum heart rate can indicate better cardiovascular fitness, but excessively high or low rates could signal potential issues.
+
+**8. Exercise Induced Angina:** A binary feature indicating whether the patient experiences angina during physical exertion. Angina is often a symptom of coronary artery disease.
+
+**9. ST Depression Induced by Exercise:** A numerical value representing the degree of depression in the ST segment of an ECG during physical exercise. This is often used to assess the severity of heart disease.
+
+**10. Peak Exercise ST Segment:** The slope of the ST segment during exercise (upsloping, flat, or downsloping). Abnormalities in the ST segment may indicate heart disease.
+
+**11. Number of Major Vessels Colored by Fluoroscopy:** This feature indicates how many major coronary vessels have significant blockages as seen in fluoroscopy imaging.
+
+**12. Thalassemia (Thal):** A categorical variable indicating the type of thalassemia, which is a blood disorder affecting hemoglobin. The possible values are:
+Normal
+Fixed defect
+Reversible defect
+
+**13.Target Variable (Heart Disease):** The target variable, which is typically a binary label indicating whether the patient has heart disease (1) or not (0).
+
+This dataset provides critical health information that the machine learning model uses to predict the likelihood of heart disease based on patterns and correlations within the data.
 
 ![image alt](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Screenshot%202024-11-05%20213338.png)
 
