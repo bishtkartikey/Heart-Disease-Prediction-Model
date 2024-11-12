@@ -3,7 +3,7 @@
 
 <h1 style="font-size: 50px;">Heart Disease Prediction Model</h1>
 
-## 1. Introduction
+***1. Introduction***
 The Heart Disease Prediction Model is a machine learning project that predicts the likelihood of heart disease based on various health indicators. Heart disease is one of the leading causes of death worldwide, making early detection crucial for preventive care. By analyzing patient data, this model aims to help healthcare providers identify high-risk patients, ultimately improving healthcare outcomes.
 
 <div style="display: flex; justify-content: space-around; gap: 10px;">
@@ -16,7 +16,7 @@ The Heart Disease Prediction Model is a machine learning project that predicts t
 
 It is also important that a doctor be present so that they could treat them. To make things worse, the tests usually take a long time before diagnosing whether a person would suffer from heart disease. However, it would be handy and better if we automate this process which ensures that we save a lot of time and effort on the part of the doctor and patient.
 
-## 2. Machine Learning and Data Science
+***2. Machine Learning and Data Science***
 Machine learning and data science techniques are applied in this project to build predictive models from medical data. We explore different machine learning algorithms and data science practices, including data preprocessing, feature engineering, and model evaluation, to create a model capable of accurate heart disease risk prediction. The project uses Python, Scikit-learn, and TensorFlow, along with libraries like Pandas and Matplotlib for data handling and visualization.
 
 ## 3. Data
@@ -27,7 +27,7 @@ The dataset used for this project contains various medical features such as age,
 
 https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
-## 4. Exploratory Data Analysis (EDA)
+***4. Exploratory Data Analysis (EDA)***
 EDA helps uncover patterns and insights within the data, facilitating better feature selection and model building. EDA in this project includes:
 - Statistical summary of data
 - Distribution analysis of key health metrics
@@ -36,7 +36,7 @@ EDA helps uncover patterns and insights within the data, facilitating better fea
 
 This step lays the foundation for informed data preprocessing and model selection.
 
-## 5. Visualizations
+***5. Visualizations***
 The dataset used for the Heart Disease Prediction Model contains various health metrics that help predict the likelihood of heart disease. The features in the dataset are as follows:
 
 **1. Age:** The age of the patient. Age is a critical factor in determining heart disease risk, as the likelihood of heart disease generally increases with age.
@@ -87,14 +87,19 @@ Next, we will review the dataset for completeness by examining non-null values a
 
 ![image alt](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Screenshot%202024-11-05%20214418.png)
 
+***The Heatmap Representation***
+
 The heatmap provides a visual representation of the correlation between various features in the dataset, making it easy to identify relationships and patterns among the variables. Each cell in the heatmap corresponds to the correlation coefficient between two features, with values ranging from -1 to 1. A value of 1 indicates a perfect positive correlation, while -1 signifies a perfect negative correlation, and a value of 0 indicates no correlation. In the heatmap, the color intensity signifies the strength of these correlations: lighter colors suggest stronger relationships. For instance, features such as 'thalach' (maximum heart rate achieved) and 'slope' (slope of the peak exercise ST segment) may exhibit a positive correlation, implying that as one feature increases, the other tends to increase as well. Conversely, negative correlations, such as those between 'slope' and 'oldpeak', suggest that as one feature increases, the other decreases. This visualization aids in identifying which features may influence heart disease outcomes and can guide further analysis in predictive modeling and feature selection.
 
 ![image alt](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Screenshot%202024-11-05%20215048.png)
 
-This illustrates an array of axes objects generated from a plotting function, typically used for creating a grid of subplots in a Matplotlib figure. Each entry in the array corresponds to a subplot that is configured to display a specific feature of the dataset, allowing for a comprehensive visual analysis of multiple variables simultaneously. The titles indicate the features being plotted, including 'age,' 'sex,' 'cp' (chest pain type), 'trestbps' (resting blood pressure), 'chol' (cholesterol level), 'fbs' (fasting blood sugar), 'restecg' (resting electrocardiographic results), 'thalach' (maximum heart rate achieved), 'exang' (exercise induced angina), 'oldpeak' (depression induced by exercise relative to rest), 'slope' (slope of the peak exercise ST segment), 'ca' (number of major vessels colored by fluoroscopy), 'thal' (thalassemia), and 'target' (presence or absence of heart disease). This arrangement of subplots facilitates a detailed examination of the relationships and distributions among these variables, enabling researchers to identify patterns, trends, and potential correlations that may influence heart disease outcomes.
+***Histograms***
+
+This illustrats an array of axes objects generated from a plotting function, typically used for creating a grid of subplots in a Matplotlib figure. Each entry in the array corresponds to a subplot that is configured to display a specific feature of the dataset, allowing for a comprehensive visual analysis of multiple variables simultaneously. The titles indicate the features being plotted, including 'age,' 'sex,' 'cp' (chest pain type), 'trestbps' (resting blood pressure), 'chol' (cholesterol level), 'fbs' (fasting blood sugar), 'restecg' (resting electrocardiographic results), 'thalach' (maximum heart rate achieved), 'exang' (exercise induced angina), 'oldpeak' (depression induced by exercise relative to rest), 'slope' (slope of the peak exercise ST segment), 'ca' (number of major vessels colored by fluoroscopy), 'thal' (thalassemia), and 'target' (presence or absence of heart disease). This arrangement of subplots facilitates a detailed examination of the relationships and distributions among these variables, enabling researchers to identify patterns, trends, and potential correlations that may influence heart disease outcomes.
 
 ![image alt](https://github.com/bishtkartikey/Heart-Disease-Prediction-Model/blob/main/Screenshot%202024-11-05%20215634.png)
 
+***BAR GRAPH***
 
 This plot effectively illustrates the distribution of patients with heart disease compared to those without, highlighting a significant prevalence of heart disease among the sample. The larger number of patients diagnosed with heart disease not only emphasizes the importance of addressing this health issue but also provides a robust dataset for developing predictive classifiers. The balanced class distribution indicates that the dataset is well-structured, allowing for reliable evaluations of machine learning models using metrics such as accuracy. This balance is crucial as it ensures that the model is trained on a diverse set of examples, reducing the risk of bias and improving its generalization capabilities. Overall, this visualization underscores the dataset's potential to inform meaningful insights and contribute to the advancement of heart disease diagnostics and treatment strategies.
 
